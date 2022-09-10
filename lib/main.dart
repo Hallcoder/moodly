@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:moodly/screens/welcome.dart';
+import 'package:moodly/screens/Home.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,9 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         colorScheme: ColorScheme.fromSwatch().copyWith(secondary: Colors.blue),
       ),
-      initialRoute:WelcomeScreen.id,
+      initialRoute:HomeScreen.id,
       routes: {
-        WelcomeScreen.id:(context) => const WelcomeScreen(),
+        HomeScreen.id:(context) => const HomeScreen(),
       },
     );
   }
