@@ -1,5 +1,4 @@
-import 'dart:ui';
-
+import 'package:audioplayers/audioplayers.dart';
 import "package:flutter/material.dart";
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:moodly/components/audioComponent.dart';
@@ -64,7 +63,7 @@ class HomeScreen extends StatelessWidget {
                 AudioCP(icon: FontAwesomeIcons.trainSubway,name:'Train'),
                 AudioCP(icon: FontAwesomeIcons.futbol,name:'Stadium'),
                 AudioCP(icon: FontAwesomeIcons.boltLightning,name:'lightning'),
-                AudioCP(icon: FontAwesomeIcons.fire,name:'CampFire'),
+                AudioCP(icon: FontAwesomeIcons.fire,name:'Fire'),
                 AudioCP(icon: FontAwesomeIcons.kiwiBird,name:'Birds'),
                 AudioCP(icon: FontAwesomeIcons.wind,name:'Wind'),
                 AudioCP(icon: FontAwesomeIcons.personWalking,name:'Steps'),
