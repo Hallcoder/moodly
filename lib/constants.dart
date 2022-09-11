@@ -7,6 +7,7 @@ const kAppBarTextStyle  = TextStyle(
 );
 var kContainerPlaying = BoxDecoration(
 border:  Border.all(color: Colors.orange,width: 2),
+borderRadius: BorderRadius.circular(12.0),
 gradient: LinearGradient(
     begin:Alignment.topRight,
     end: Alignment.bottomLeft,
@@ -21,6 +22,7 @@ gradient: LinearGradient(
 )
 );
 var kContainerIdle = BoxDecoration(
+    borderRadius: BorderRadius.circular(12.0),
     border:  Border.all(color: Colors.blueGrey,width:2)
 );
 
