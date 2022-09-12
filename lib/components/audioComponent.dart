@@ -49,7 +49,7 @@ class _AudioCPState extends State<AudioCP> {
               style: TextStyle(
               ),
             ),
-            Icon(widget.icon,size:60.0),
+            Icon(widget.icon,size:60.0,color:Colors.lightBlueAccent),
             Center(
               child: Row(
                 mainAxisSize: MainAxisSize.min,

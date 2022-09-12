@@ -10,6 +10,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      // backgroundColor: Colors.black,
       floatingActionButton: FloatingActionButton(
         onPressed: () {  },
         child: Icon(FontAwesomeIcons.plus),

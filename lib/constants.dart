@@ -14,15 +14,13 @@ gradient: LinearGradient(
   colors: const [
     Colors.red,
     Colors.orange,
-    Colors.yellow,
-    Colors.green,
-    Colors.blue,
     Colors.indigo
   ]
 )
 );
 var kContainerIdle = BoxDecoration(
+    color: Colors.blueGrey,
     borderRadius: BorderRadius.circular(12.0),
-    border:  Border.all(color: Colors.blueGrey,width:2)
+    border:  Border.all(color: Colors.black,width:2)
 );
 
