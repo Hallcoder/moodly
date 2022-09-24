@@ -17,6 +17,7 @@ class HomeScreen extends StatelessWidget {
       ),
       appBar: AppBar(
         title: const Text('Moodly'),
+        backgroundColor: Colors.blueGrey,
         actions: [
           TextButton(
             onPressed: () {},

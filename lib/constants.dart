@@ -21,6 +21,6 @@ gradient: LinearGradient(
 var kContainerIdle = BoxDecoration(
     color: Colors.blueGrey,
     borderRadius: BorderRadius.circular(12.0),
-    border:  Border.all(color: Colors.black,width:2)
+    border:  Border.all(width:2)
 );
 
